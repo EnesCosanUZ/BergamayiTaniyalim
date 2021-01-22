@@ -60,25 +60,25 @@ a:hover {
     display: none;
 }
 
-.menu {
+#menu {
     margin: -11px 0;
 }
 
-.menu ul {
+#menu ul {
     display: flex;
 }
 
-.menu ul li {
+#menu ul li {
     list-style: none;
     margin: 0 10px;
 }
 
-.menu ul li a {
+#menu ul li a {
     text-decoration: none;
     color: #aaa;
 }
 
-.menu ul li a:hover {
+#menu ul li a:hover {
     color: #003cff;
 }
 
@@ -154,4 +154,107 @@ img {
 .bergamaImg {
     max-width: 330px;
     width: 100%;
+}
+
+@media screen and (max-width: 1025px) {    
+    .nerelereGidilir {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 49%);
+    }
+    
+    .header {
+        width: 90%;
+    }
+    
+    .menuToggler {
+        display: none;
+    }
+
+    .content {
+        margin: auto;
+        width: 90%;
+    }
+    
+    .galeri {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 49%);
+    }
+}
+
+@media screen and (max-width: 769px) {    
+    .nerelereGidilir {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+    
+    .header {
+        width: 90%;
+        font-size: 16px;
+    }
+    
+    .logo {
+        font-size: 25px;
+    }
+    
+    .menuToggler {
+        display: none;
+    }
+
+    .content {
+        margin: auto;
+        width: 90%;
+    }
+    
+    .galeri {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+}
+
+@media screen and (max-width: 426px) {    
+    .nerelereGidilir {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+    
+    .header {
+        width: 90%;
+        font-size: 16px;
+        display: block;
+    }
+    
+    .logo {
+        font-size: 25px;
+    }
+
+    #menu {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #menu ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+    
+    #menu ul li{
+        padding: 15px;
+    }
+
+    .menuToggler {
+        display: block;
+        margin-top: -8px;
+        float: right;
+    }
+
+    .content {
+        margin: auto;
+        width: 90%;
+    }
+    
+    .galeri {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
 }
