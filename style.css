@@ -41,7 +41,7 @@ a:hover {
 
 .header {
     padding: 20px 0;
-    max-width: 1000px;
+    max-width: 1100px;
     width: 100%;
     margin: auto;
     height: auto;
@@ -84,7 +84,7 @@ a:hover {
 
 .content {
     margin: auto;
-    max-width: 1000px;
+    max-width: 1100px;
     width: 100%;
 }
 
@@ -130,20 +130,28 @@ a:hover {
 }
 
 .galeri {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 32%);
     justify-content: space-between;
 }
 
 .galeriImg {
     width: 100%;
-    max-width: 320px;
-    vertical-align:middle;
+    margin-bottom: 20px;
     border: 1px solid #fff;
-    margin: 0 0 10px 0;
-    cursor: pointer;
 }
 
 img {
     cursor: pointer;
+}
+
+.bergama {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33%);
+    justify-content: space-between;
+}
+
+.bergamaImg {
+    max-width: 330px;
+    width: 100%;
 }

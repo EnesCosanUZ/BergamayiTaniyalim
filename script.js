@@ -1,3 +1,10 @@
+$(".bergamaImg").hover(function() {
+    $(this).css("opacity", "0.4");
+}, function() {
+    $(this).css("opacity", "1");
+}
+);
+
 $(".galeriImg").hover(function() {
     $(this).css("opacity", "0.4");
 }, function() {
