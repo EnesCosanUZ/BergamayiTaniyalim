@@ -5,7 +5,7 @@
 > ## This project made for my web develop lesson final exam.
 >> ### [Click for view](enesuz.me/BergamayiTaniyalim)
 >
->> ### [Send mail to me](mailto:admin@enesuz.me)
+>> ### [Send mail to me](mailto:enescosanuz@gmail.com)
 
 &copy; [EnesCosanUZ](https://enesuz.me/)
 
